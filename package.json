@@ -1,0 +1,17 @@
+{
+  "name": "playwright-e2e-saucedemo",
+  "version": "1.0.0",
+  "description": "Automated E2E test suite for SauceDemo using Playwright + TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "test:debug": "playwright test --debug"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.0.0",
+    "typescript": "^5.0.0"
+  }
+}
