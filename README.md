@@ -1,6 +1,6 @@
 # Playwright E2E Test Suite — SauceDemo
 
-![CI](https://github.com/<YOUR_USERNAME>/playwright-e2e-saucedemo/actions/workflows/playwright.yml/badge.svg)
+![CI](https://github.com/<yemoetun>/playwright-e2e-saucedemo/actions/workflows/playwright.yml/badge.svg)
 
 An automated End-to-End (E2E) test suite built with **Playwright** and **TypeScript**, targeting [SauceDemo](https://www.saucedemo.com) — an industry-standard mock e-commerce site used for QA practice.
 
