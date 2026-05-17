@@ -67,6 +67,27 @@ project root
 
 ---
 
+## Adapting This Suite to Other Websites
+
+The framework and CI pipeline are fully reusable — only the selectors and URLs are SauceDemo-specific.
+
+**What's reusable for any site:**
+- Project structure and Page Object Model pattern
+- `playwright.config.ts` configuration
+- GitHub Actions CI/CD workflow
+- `.env` approach for credentials
+- Arrange-Act-Assert test pattern
+
+**What needs updating for a new site:**
+- Locators inside the Page Object classes (e.g. `[data-test="login-button"]` is SauceDemo-specific)
+- Base URL in `.env`
+- Test data (usernames, product names, form fields)
+- Assertions to match the new site's confirmation messages
+
+Think of this project as a **template** — adapting it to a new site is mostly swapping selectors and URLs, which gets faster with practice.
+
+---
+
 ## Getting Started
 
 ### Prerequisites
